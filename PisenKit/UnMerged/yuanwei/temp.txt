@@ -1,0 +1,2 @@
+NSNumber * orientation = [NSNumber numberWithInteger:UIInterfaceOrientationLandscapeLeft];
+[[UIDevice currentDevice] setValue:orientation forKey:@"orientation"];

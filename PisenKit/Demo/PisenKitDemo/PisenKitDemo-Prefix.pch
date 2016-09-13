@@ -1,0 +1,16 @@
+//
+//  PisenKit-Prefix.pch
+//  PisenKit
+//
+//  Created by 杨胜超 on 16/6/29.
+//  Copyright © 2016年 Pisen. All rights reserved.
+//
+
+#ifndef PisenKitDemo_Prefix_pch
+#define PisenKitDemo_Prefix_pch
+
+#import "PisenKit.h"
+#import "AppMarcro.h"
+#import "AppModel.h"
+
+#endif /* PisenKitDemo_Prefix_pch */
