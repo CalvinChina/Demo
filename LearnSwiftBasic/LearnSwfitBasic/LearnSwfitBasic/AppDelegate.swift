@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Swift3Demo
+//  LearnSwfitBasic
 //
-//  Created by pisen on 16/9/14.
+//  Created by pisen on 16/9/21.
 //  Copyright © 2016年 丁文凯. All rights reserved.
 //
 
@@ -15,9 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-        
-        
         // Override point for customization after application launch.
         return true
     }

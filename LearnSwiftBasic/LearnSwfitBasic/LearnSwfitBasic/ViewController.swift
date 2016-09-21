@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Swift3Demo
+//  LearnSwfitBasic
 //
-//  Created by pisen on 16/9/14.
+//  Created by pisen on 16/9/21.
 //  Copyright © 2016年 丁文凯. All rights reserved.
 //
 
@@ -12,15 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let str:String =  EncryptManager.sharedManager.encryptStrings(str: "hello")
-        print(str)
-        // 私有方法访问不到
-//        let msg: String = EncryptManager.sharedManager.encryptMethod(str:"123456")
-//        
-//        print(msg)
-        
-        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
