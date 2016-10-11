@@ -39,9 +39,24 @@ class URLViewController: UIViewController ,UIWebViewDelegate{
 //        self.navigationController?.pushViewController(collVC, animated: true)
         
 
-        let AVFVC:AVFoundationQRcodeViewController = AVFoundationQRcodeViewController(nibName:"AVFoundationQRcodeViewController",bundle:Bundle.main)
-        self.navigationController?.pushViewController(AVFVC, animated: true)
+//        let AVFVC:AVFoundationQRcodeViewController = AVFoundationQRcodeViewController(nibName:"AVFoundationQRcodeViewController",bundle:Bundle.main)
+//        self.navigationController?.pushViewController(AVFVC, animated: true)
         
+//        let caleadarVC = CalendarViewController(nibName:"CalendarViewController",bundle:Bundle.main)
+//        self.navigationController?.pushViewController(caleadarVC, animated: true)
+//        
+//        let chatVC = ChatPeerToPeerViewController(nibName:"ChatPeerToPeerViewController",bundle:Bundle.main)
+//        self.navigationController?.pushViewController(chatVC, animated: true)
+
+        
+//        let chatVC = CheckConnectivityViewController(nibName:"CheckConnectivityViewController",bundle:Bundle.main)
+//        self.navigationController?.pushViewController(chatVC, animated: true)
+        
+//        let chatVC = CoreAnimation1ViewController(nibName:"CoreAnimation1ViewController",bundle:Bundle.main)
+//        self.navigationController?.pushViewController(chatVC, animated: true)
+        
+        let coreVc = CoreDataSampleViewController(nibName:"CoreDataSampleViewController",bundle:Bundle.main)
+        self.navigationController?.pushViewController(coreVc, animated: true)
     }
     
     override func viewDidLoad() {

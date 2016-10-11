@@ -62,6 +62,90 @@
             </objects>
             <point key="canvasLocation" x="460" y="569"/>
         </scene>
+        <!--Contact-->
+        <scene sceneID="yEU-f3-6GF">
+            <objects>
+                <tableViewController title="Contact" id="fpH-yE-L0i" customClass="TableListViewController" customModule="Swift3Demo" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Dzb-U3-hFQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CELL" id="TEU-L8-3xW">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TEU-L8-3xW" id="vQ7-d7-NSQ">
+                                    <frame key="frameInset" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fpH-yE-L0i" id="iRz-WN-aYV"/>
+                            <outlet property="delegate" destination="fpH-yE-L0i" id="QQa-hg-V34"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="cbl-vf-v2H"/>
+                    <navigationItem key="navigationItem" title="Contact" id="SHw-QF-QNm">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="FL1-2o-GJA"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aSD-An-ULb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9" y="1229"/>
+        </scene>
+        <!--CollectionViewViewController-->
+        <scene sceneID="Iw7-f3-X3L">
+            <objects>
+                <viewController title="CollectionViewViewController" id="AbY-NC-rPV" customClass="CollectionViewViewController" customModule="Swift3Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wqO-dc-e5w"/>
+                        <viewControllerLayoutGuide type="bottom" id="ttN-jW-K4i"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iQV-ra-XZy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7WL-1n-XOS">
+                                <frame key="frameInset" minY="35" width="320" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="snT-1z-vzP">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="88y-wz-D2x">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oRQ-2f-7ZF">
+                                                    <frame key="frameInset" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="AbY-NC-rPV" id="UZv-Z2-Od1"/>
+                                    <outlet property="delegate" destination="AbY-NC-rPV" id="8Lg-GR-f0u"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="KHe-oC-g1v"/>
+                    <navigationItem key="navigationItem" id="KQ5-QY-Tpj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H2t-5i-3ve" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="1377"/>
+        </scene>
         <!--Item 1-->
         <scene sceneID="uk2-Be-HFs">
             <objects>
@@ -150,6 +234,8 @@
                     <connections>
                         <segue destination="XO0-wR-g1c" kind="relationship" relationship="viewControllers" id="sTa-C8-M5g"/>
                         <segue destination="vij-ze-nUY" kind="relationship" relationship="viewControllers" id="2sV-Eu-GyJ"/>
+                        <segue destination="fpH-yE-L0i" kind="relationship" relationship="viewControllers" id="Hm5-Jy-d0B"/>
+                        <segue destination="AbY-NC-rPV" kind="relationship" relationship="viewControllers" id="jUl-Nn-ewX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ij-nV-0SP" userLabel="First Responder" sceneMemberID="firstResponder"/>
