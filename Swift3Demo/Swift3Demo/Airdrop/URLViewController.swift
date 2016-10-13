@@ -20,43 +20,52 @@ class URLViewController: UIViewController ,UIWebViewDelegate{
         self.present(controller, animated: true, completion: nil)
     }
     
+    //        let requst = URLRequest(url:URL(string:myURL.text!)!)
+    //        self.webView2.loadRequest(requst)
+    
+    // nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle
+    
+    // 跳转AlerViewcontroller
+    //        let alertVC:AlertViewController = AlertViewController(nibName:"AlertViewController",bundle:Bundle.main)
+    //        self.navigationController?.pushViewController(alertVC, animated: true)
+    
+    // 跳转AlerViewcontroller
+    //        let animate:AnimationsGesturesViewController = AnimationsGesturesViewController(nibName:"AnimationsGesturesViewController",bundle:Bundle.main)
+    //        self.navigationController?.pushViewController(animate, animated: true)
+    
+    
+    //        let collVC:CollisionQuartzCoreViewController = CollisionQuartzCoreViewController(nibName:"CollisionQuartzCoreViewController",bundle:Bundle.main)
+    //        self.navigationController?.pushViewController(collVC, animated: true)
+    
+    
+    //        let AVFVC:AVFoundationQRcodeViewController = AVFoundationQRcodeViewController(nibName:"AVFoundationQRcodeViewController",bundle:Bundle.main)
+    //        self.navigationController?.pushViewController(AVFVC, animated: true)
+    
+    //        let caleadarVC = CalendarViewController(nibName:"CalendarViewController",bundle:Bundle.main)
+    //        self.navigationController?.pushViewController(caleadarVC, animated: true)
+    //
+    //        let chatVC = ChatPeerToPeerViewController(nibName:"ChatPeerToPeerViewController",bundle:Bundle.main)
+    //        self.navigationController?.pushViewController(chatVC, animated: true)
+    
+    
+    //        let chatVC = CheckConnectivityViewController(nibName:"CheckConnectivityViewController",bundle:Bundle.main)
+    //        self.navigationController?.pushViewController(chatVC, animated: true)
+    
+    //        let chatVC = CoreAnimation1ViewController(nibName:"CoreAnimation1ViewController",bundle:Bundle.main)
+    //        self.navigationController?.pushViewController(chatVC, animated: true)
+    //
+ 
+    
     @IBAction func load(sender:UIButton){
-//        let requst = URLRequest(url:URL(string:myURL.text!)!)
-//        self.webView2.loadRequest(requst)
-        
-       // nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle
-        
-        // 跳转AlerViewcontroller
-//        let alertVC:AlertViewController = AlertViewController(nibName:"AlertViewController",bundle:Bundle.main)
-//        self.navigationController?.pushViewController(alertVC, animated: true)
-        
-        // 跳转AlerViewcontroller
-//        let animate:AnimationsGesturesViewController = AnimationsGesturesViewController(nibName:"AnimationsGesturesViewController",bundle:Bundle.main)
-//        self.navigationController?.pushViewController(animate, animated: true)
+        //        let coreVc = CoreDataSampleViewController(nibName:"CoreDataSampleViewController",bundle:Bundle.main)
+        //        self.navigationController?.pushViewController(coreVc, animated: true)
 
-        
-//        let collVC:CollisionQuartzCoreViewController = CollisionQuartzCoreViewController(nibName:"CollisionQuartzCoreViewController",bundle:Bundle.main)
-//        self.navigationController?.pushViewController(collVC, animated: true)
-        
-
-//        let AVFVC:AVFoundationQRcodeViewController = AVFoundationQRcodeViewController(nibName:"AVFoundationQRcodeViewController",bundle:Bundle.main)
-//        self.navigationController?.pushViewController(AVFVC, animated: true)
-        
-//        let caleadarVC = CalendarViewController(nibName:"CalendarViewController",bundle:Bundle.main)
-//        self.navigationController?.pushViewController(caleadarVC, animated: true)
-//        
-//        let chatVC = ChatPeerToPeerViewController(nibName:"ChatPeerToPeerViewController",bundle:Bundle.main)
-//        self.navigationController?.pushViewController(chatVC, animated: true)
-
-        
-//        let chatVC = CheckConnectivityViewController(nibName:"CheckConnectivityViewController",bundle:Bundle.main)
-//        self.navigationController?.pushViewController(chatVC, animated: true)
-        
-//        let chatVC = CoreAnimation1ViewController(nibName:"CoreAnimation1ViewController",bundle:Bundle.main)
-//        self.navigationController?.pushViewController(chatVC, animated: true)
-        
-        let coreVc = CoreDataSampleViewController(nibName:"CoreDataSampleViewController",bundle:Bundle.main)
+        let coreVc = CoreImageViewController(nibName:"CoreImageViewController",bundle:Bundle.main)
         self.navigationController?.pushViewController(coreVc, animated: true)
+
+//        let coreVc = CoreLocationViewController(nibName:"CoreLocationViewController",bundle:Bundle.main)
+//        self.navigationController?.pushViewController(coreVc, animated: true)
+
     }
     
     override func viewDidLoad() {

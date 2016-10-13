@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="YSCPhotoBrowseViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gQv-tI-ZSg">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+                    </scrollView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="lzf-9Z-stk">
+                        <rect key="frame" x="190" y="190" width="20" height="20"/>
+                    </activityIndicatorView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="图片加载中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYH-b6-zUK">
+                        <rect key="frame" x="140" y="230" width="120" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="PYH-b6-zUK" firstAttribute="top" secondItem="lzf-9Z-stk" secondAttribute="bottom" constant="20" id="D5p-0R-0BO"/>
+                <constraint firstItem="PYH-b6-zUK" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="M40-Ck-q2N"/>
+                <constraint firstItem="gQv-tI-ZSg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Q2b-dz-WTL"/>
+                <constraint firstItem="gQv-tI-ZSg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="a2v-TM-Rco"/>
+                <constraint firstItem="lzf-9Z-stk" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="csZ-70-r7a"/>
+                <constraint firstItem="lzf-9Z-stk" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="mdI-pZ-lcs"/>
+                <constraint firstAttribute="bottom" secondItem="gQv-tI-ZSg" secondAttribute="bottom" id="wSF-b7-Vhz"/>
+                <constraint firstAttribute="trailing" secondItem="gQv-tI-ZSg" secondAttribute="trailing" id="wts-44-rgj"/>
+            </constraints>
+            <size key="customSize" width="405" height="468"/>
+            <connections>
+                <outlet property="indicatorLabel" destination="PYH-b6-zUK" id="mvj-ZU-CXd"/>
+                <outlet property="indicatorView" destination="lzf-9Z-stk" id="dbV-EP-Smo"/>
+                <outlet property="zoomScrollView" destination="gQv-tI-ZSg" id="zfM-zF-FSb"/>
+            </connections>
+            <point key="canvasLocation" x="379.5" y="394"/>
+        </collectionViewCell>
+    </objects>
+</document>

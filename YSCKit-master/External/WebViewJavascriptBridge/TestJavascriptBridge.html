@@ -1,0 +1,39 @@
+<!doctype html>
+<html><head>
+    <style type='text/css'>
+        html { font-family:Helvetica; color:#222; }
+        h1 { color:steelblue; font-size:24px; margin-top:24px; }
+        button { margin:0 3px 10px; font-size:12px; }
+        .logLine { border-bottom:1px solid #ccc; padding:4px 2px; font-family:courier; font-size:11px; }
+        </style>
+</head><body>
+    <h1>WebViewJavascriptBridge Demo</h1>
+    <script>
+        window.onerror = function(err) {
+
+        }
+    //1. 定义一个连接iOS UIWebView的桥接方法
+    var connectWebViewJavascriptBridge = function(callback) {
+        if (window.WebViewJavascriptBridge) {
+            callback(WebViewJavascriptBridge)
+        } else {
+            document.addEventListener('WebViewJavascriptBridgeReady', function() {
+                                      callback(WebViewJavascriptBridge)
+                                      }, false)
+        }
+    };
+    
+    //2. 通过调用上面的方法，传递handlerName(goBack)和json对象到iOS端去解析
+    var i_goBack = function(){
+        connectWebViewJavascriptBridge(function(bridge){
+                                       bridge.callHandler('goBack', {'foo': 'bar'}, function(response) {})
+                                       })
+    };
+    
+    //3. 注册一个handlerName(showAlert)，等待被iOS端调用
+    connectWebViewJavascriptBridge(function(bridge){
+                                   bridge.registerHandler('showAlert', function(data) { alert(data) })
+                                   })
+        </script>
+    <div id='buttons'></div>
+</body></html>

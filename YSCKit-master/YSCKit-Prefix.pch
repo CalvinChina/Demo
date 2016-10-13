@@ -1,0 +1,28 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+ 
+#ifdef __OBJC__
+    //常用的pod中第三方库
+    #import <BlocksKit/BlocksKit.h>
+    #import <BlocksKit+UIKit.h>
+    #import <BlocksKit+MessageUI.h>
+    #import <MBProgressHUD/MBProgressHUD.h>
+    #import <FMDB/FMDB.h>
+    #import "Masonry.h"
+
+
+    #import "YSCKit.h"      //引入YSCKit代码库
+    #import "AppData.h"     //引入本项目的头文件
+    #import "YSCDefaults.h" //引入YSCKit的默认变量
+#endif
