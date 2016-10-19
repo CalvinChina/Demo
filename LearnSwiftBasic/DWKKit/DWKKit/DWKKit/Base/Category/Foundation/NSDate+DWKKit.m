@@ -8,6 +8,14 @@
 
 #import "NSDate+DWKKit.h"
 
+
+#define DATE_COMPONENTS (NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSWeekCalendarUnit |  NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit | NSWeekdayCalendarUnit | NSWeekdayOrdinalCalendarUnit)
+#define CURRENT_CALENDAR [NSCalendar currentCalendar]
 @implementation NSDate (DWKKit)
+
+//- (NSInteger)nearestHour{
+//    NSTimeInterval aTimeInterval = [CURRENT_DATE]
+//}
+
 
 @end

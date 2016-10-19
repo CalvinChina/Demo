@@ -8,13 +8,20 @@
 
 #import "NSData+DWKKit.h"
 
+#import <CommonCrypto/CommonDigest.h>
+#import <CommonCrypto/CommonCryptor.h>
+#import <CommonCrypto/CommonHMAC.h>
+
 NSString * const kCommonCryptoErrorDomain = @"CommonCryptoErrorDomain";
 
 @implementation NSError (CommonCryptoErrorDomain)
 
-+ (NSError *)errorWithCCCryptorStatus:(CCCryptorStatus)status{
-    NSString * description = nil , * reason = nil;
-    switch (status) {
++ (NSError *) errorWithCCCryptorStatus: (CCCryptorStatus) status
+{
+    NSString * description = nil, * reason = nil;
+    
+    switch ( status )
+    {
         case kCCSuccess:
             description = NSLocalizedString(@"Success", @"Error description");
             break;
@@ -52,28 +59,31 @@ NSString * const kCommonCryptoErrorDomain = @"CommonCryptoErrorDomain";
         default:
             description = NSLocalizedString(@"Unknown Error", @"Error description");
             break;
-
     }
     
-    NSMutableDictionary * userInfo = [NSMutableDictionary dictionary];
-    [userInfo setObject:description forKey:NSLocalizedDescriptionKey];
-    if (reason != nil) {
-        [userInfo setObject:reason forKey:NSLocalizedFailureReasonErrorKey];
-    }
-    NSError * result = [NSError errorWithDomain:kCommonCryptoErrorDomain code:status userInfo:userInfo];
+    NSMutableDictionary * userInfo = [[NSMutableDictionary alloc] init];
+    [userInfo setObject: description forKey: NSLocalizedDescriptionKey];
+    
+    if ( reason != nil )
+        [userInfo setObject: reason forKey: NSLocalizedFailureReasonErrorKey];
+    
+    NSError * result = [NSError errorWithDomain: kCommonCryptoErrorDomain code: status userInfo: userInfo];
     [userInfo release];
     
-    return (result);
+    return ( result );
 }
 
 @end
 
+#pragma mark -
+
 @implementation NSData (CommonDigest)
 
-- (NSData *)MD2Sum{
+- (NSData *) MD2Sum
+{
     unsigned char hash[CC_MD2_DIGEST_LENGTH];
-    (void) CC_MD2([self bytes], (CC_LONG)[self length],hash);
-    return [NSData dataWithBytes:hash length:CC_MD2_DIGEST_LENGTH];
+    (void) CC_MD2( [self bytes], (CC_LONG)[self length], hash );
+    return ( [NSData dataWithBytes: hash length: CC_MD2_DIGEST_LENGTH] );
 }
 
 - (NSData *) MD4Sum
@@ -129,18 +139,22 @@ NSString * const kCommonCryptoErrorDomain = @"CommonCryptoErrorDomain";
 
 @implementation NSData (CommonCryptor)
 
-- (NSData *)AES256EcryptedDataUsingKey:(id)key eroor:(NSError **)error{
+- (NSData *) AES256EncryptedDataUsingKey: (id) key error: (NSError **) error
+{
     CCCryptorStatus status = kCCSuccess;
-    NSData * result = [self descryptedDataUsingAlgrithm:kCCAlgorithmAES128 key:key options:kCCOptionPKCS7Padding error:&status];
-    if (result != nil) {
-        return result;
-    }
-    if (error != NULL) {
-        * error = [NSError errorWithCCCryptorStatus:status];
-    }
-    return nil;
+    NSData * result = [self dataEncryptedUsingAlgorithm: kCCAlgorithmAES128
+                                                    key: key
+                                                options: kCCOptionPKCS7Padding
+                                                  error: &status];
+    
+    if ( result != nil )
+        return ( result );
+    
+    if ( error != NULL )
+        *error = [NSError errorWithCCCryptorStatus: status];
+    
+    return ( nil );
 }
-
 
 - (NSData *) decryptedAES256DataUsingKey: (id) key error: (NSError **) error
 {
@@ -229,9 +243,11 @@ NSString * const kCommonCryptoErrorDomain = @"CommonCryptoErrorDomain";
 
 @end
 
-static void FixKeyLengths(CCAlgorithm algorithm, NSMutableData * keyData,NSMutableData * ivData){
+static void FixKeyLengths( CCAlgorithm algorithm, NSMutableData * keyData, NSMutableData * ivData )
+{
     NSUInteger keyLength = [keyData length];
-    switch (algorithm) {
+    switch ( algorithm )
+    {
         case kCCAlgorithmAES128:
         {
             if ( keyLength <= 16 )
@@ -246,8 +262,9 @@ static void FixKeyLengths(CCAlgorithm algorithm, NSMutableData * keyData,NSMutab
             {
                 [keyData setLength: 32];
             }
+            
+            break;
         }
-        break;
             
         case kCCAlgorithmDES:
         {
@@ -285,18 +302,20 @@ static void FixKeyLengths(CCAlgorithm algorithm, NSMutableData * keyData,NSMutab
         default:
             break;
     }
-
-    [ivData setLength:[keyData length]];
+    
+    [ivData setLength: [keyData length]];
 }
 
 @implementation NSData (LowLevelCommonCryptor)
 
-- (NSData *) _runCryptor:(CCCryptorRef)cryptor result:(CCCryptorStatus *)status{
-    size_t bufsize = CCCryptorGetOutputLength(cryptor, (size_t)[self length], true);
-    void * buf = malloc(bufsize);
+- (NSData *) _runCryptor: (CCCryptorRef) cryptor result: (CCCryptorStatus *) status
+{
+    size_t bufsize = CCCryptorGetOutputLength( cryptor, (size_t)[self length], true );
+    void * buf = malloc( bufsize );
     size_t bufused = 0;
     size_t bytesTotal = 0;
-    *status = CCCryptorUpdate(cryptor, [self bytes], (size_t)[self length], buf, bufsize, &bufused);
+    *status = CCCryptorUpdate( cryptor, [self bytes], (size_t)[self length],
+                              buf, bufsize, &bufused );
     if ( *status != kCCSuccess )
     {
         free( buf );
@@ -342,7 +361,6 @@ static void FixKeyLengths(CCAlgorithm algorithm, NSMutableData * keyData,NSMutab
                                          error: error] );
 }
 
-
 - (NSData *) dataEncryptedUsingAlgorithm: (CCAlgorithm) algorithm
                                      key: (id) key
                     initializationVector: (id) iv
@@ -351,44 +369,46 @@ static void FixKeyLengths(CCAlgorithm algorithm, NSMutableData * keyData,NSMutab
 {
     CCCryptorRef cryptor = NULL;
     CCCryptorStatus status = kCCSuccess;
-    NSParameterAssert([key isKindOfClass:[NSData class]] || [key isKindOfClass:[NSString class]]);
-    NSParameterAssert(iv == nil || [iv isKindOfClass:[NSData class]] || [iv isKindOfClass:[NSString class]]);
     
-    NSMutableData * keyData , * ivData;
-    if ([key isKindOfClass:[NSData class]]) {
+    NSParameterAssert([key isKindOfClass: [NSData class]] || [key isKindOfClass: [NSString class]]);
+    NSParameterAssert(iv == nil || [iv isKindOfClass: [NSData class]] || [iv isKindOfClass: [NSString class]]);
+    
+    NSMutableData * keyData, * ivData;
+    if ( [key isKindOfClass: [NSData class]] )
         keyData = (NSMutableData *) [key mutableCopy];
-    }else{
-        keyData = [[key dataUsingEncoding:NSUTF8StringEncoding] mutableCopy];
-    }
-
-    if ([iv isKindOfClass:[NSString class]]) {
-        keyData = [[iv dataUsingEncoding:NSUTF8StringEncoding] mutableCopy];
-    }else{
-        ivData = (NSMutableData *) [iv mutableCopy];
-    }
+    else
+        keyData = [[key dataUsingEncoding: NSUTF8StringEncoding] mutableCopy];
+    
+    if ( [iv isKindOfClass: [NSString class]] )
+        ivData = [[iv dataUsingEncoding: NSUTF8StringEncoding] mutableCopy];
+    else
+        ivData = (NSMutableData *) [iv mutableCopy];	// data or nil
     
     [keyData autorelease];
     [ivData autorelease];
     
-    FixKeyLengths(algorithm,keyData , ivData);
-
-    status = CCCryptorCreate(kCCEncrypt, algorithm, options, [keyData bytes], [keyData length], [ivData bytes], &cryptor);
+    // ensure correct lengths for key and iv data, based on algorithms
+    FixKeyLengths( algorithm, keyData, ivData );
     
-    if (status != kCCSuccess) {
-        if (error != NULL) {
+    status = CCCryptorCreate( kCCEncrypt, algorithm, options,
+                             [keyData bytes], [keyData length], [ivData bytes],
+                             &cryptor );
+    
+    if ( status != kCCSuccess )
+    {
+        if ( error != NULL )
             *error = status;
-        }
-        return nil;
+        return ( nil );
     }
     
-    NSData * result = [self _runCryptor:cryptor result:&status];
-    if (result == nil && error != NULL) {
+    NSData * result = [self _runCryptor: cryptor result: &status];
+    if ( (result == nil) && (error != NULL) )
         *error = status;
-    }
-    CCCryptorRelease(cryptor);
-    return result;
+    
+    CCCryptorRelease( cryptor );
+    
+    return ( result );
 }
-
 
 - (NSData *) decryptedDataUsingAlgorithm: (CCAlgorithm) algorithm
                                      key: (id) key		// data or string
@@ -462,7 +482,6 @@ static void FixKeyLengths(CCAlgorithm algorithm, NSMutableData * keyData,NSMutab
     return ( result );
 }
 
-
 @end
 
 @implementation NSData (CommonHMAC)
@@ -492,7 +511,3 @@ static void FixKeyLengths(CCAlgorithm algorithm, NSMutableData * keyData,NSMutab
 @end
 
 
-
-@implementation NSData (DWKKit)
-
-@end

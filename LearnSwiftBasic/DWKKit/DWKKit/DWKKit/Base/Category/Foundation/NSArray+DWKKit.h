@@ -10,7 +10,7 @@
 
 @interface NSArray (DWKKit)
 /**
- * 判断数组是否相同
+ * 判断数组元素是否相同
  */
 + (BOOL)isEquals:(NSArray *) array1 with:(NSArray *)array2;
 /**

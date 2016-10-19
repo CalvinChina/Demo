@@ -18,6 +18,11 @@
 
 // module
 #import "DWKKitBase.h"
+#import "DWKKitMacro.h"
+#import "DWKKitHelper.h"
+#import "DWKKitDeafault.h"
+#import "DWKKitModel.h"
+
 
 //#define abc(a) [NSString stringWithFormat:(a)]
 
