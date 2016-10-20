@@ -103,11 +103,33 @@ POST_NOTIFICATION_WITH_OBJECT_AND_INFO(_name, nil, _info)
 )
 
 
+// 方法或属性过期标志
+#define DWKDeprecated(explain)      NS_DEPRECATED(2_0, 2_0, 2_0, 2_0, explain)
+
+// 是否处于debug模式
+#define DEBUG_MODE                   DWKConfigDataInstance.isDebugMode
+
 // 是否处于debug或develop模式
-#define DEBUG_OR_DEVELOP_MODE       (DEBUG_MODE || [YSCManager isArchiveByDevelopment])
+#define DEBUG_OR_DEVELOP_MODE       (DEBUG_MODE || [DWKManager isArchiveByDevelopment])
 
 // 是否可以输出log
 #define IS_LOG_AVAILABLE            (DEBUG_OR_DEVELOP_MODE || DWKConfigDataInstance.isOutputLog)
+
+
+/**
+ *  自动布局相关代码段简写
+ */
+#define AUTOLAYOUT_LENGTH(x)            ((x) * DWKConfigDataInstance.autoLayoutScale)       //计算缩放后的大小point
+#define AUTOLAYOUT_LENGTH_W(x,w)        ((x) * (DWKConfigDataInstance.screenWidth / (w)))   //计算任意xib布局的真实大小point
+#define AUTOLAYOUT_FONT(f)              [UIFont systemFontOfSize:AUTOLAYOUT_LENGTH(f)]
+#define AUTOLAYOUT_FONT_W(f,w)          [UIFont systemFontOfSize:AUTOLAYOUT_LENGTH_W(f,w)]
+
+#define AUTOLAYOUT_SIZE_WH(w,h)         CGSizeMake(AUTOLAYOUT_LENGTH(w), AUTOLAYOUT_LENGTH(h))
+#define AUTOLAYOUT_SIZE(s)              AUTOLAYOUT_SIZE_WH(s.width, s.height)
+#define AUTOLAYOUT_EDGEINSETS_TLBR(t,l,b,r)     UIEdgeInsetsMake(AUTOLAYOUT_LENGTH(t), AUTOLAYOUT_LENGTH(l), AUTOLAYOUT_LENGTH(b), AUTOLAYOUT_LENGTH(r))
+#define AUTOLAYOUT_EDGEINSETS(e)        AUTOLAYOUT_EDGEINSETS_TLBR(e.top, e.left, e.bottom, e.right)
+#define AUTOLAYOUT_RECT_XYWH(x,y,w,h)   CGRectMake(AUTOLAYOUT_LENGTH(x), AUTOLAYOUT_LENGTH(y), AUTOLAYOUT_LENGTH(w), AUTOLAYOUT_LENGTH(h))
+#define AUTOLAYOUT_RECT(r)              AUTOLAYOUT_RECT_XYWH(r.origin.x, r.origin.y, r.size.width, r.size.height)
 
 
 

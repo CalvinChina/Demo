@@ -25,10 +25,12 @@
 #import "NSDate+DWKKit.h"
 #import "NSString+DWKKit.h"
 
+
 #import "ALAssetsLibrary+DWKKit.h"
 
 #import "UIColor+DWKKit.h"
 #import "UIDevice+DWKKit.h"
+#import "UIView+DWKKit.h"
 
 // Helper
 #import "DWKStorageData.h"

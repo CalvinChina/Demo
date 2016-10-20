@@ -15,6 +15,9 @@
 #import "DWKKitConfigData.h"
 #import "DWKManager.h"
 #import "DWKHUDManager.h"
+#import "DWKAlertManager.h"
+#import "DWKFormatManager.h"
+#import "DWKSqilteManager.h"
 
 
 #endif /* DWKKitHelper_h */
