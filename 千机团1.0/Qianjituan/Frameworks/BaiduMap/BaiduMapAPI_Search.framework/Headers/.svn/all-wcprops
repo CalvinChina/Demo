@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers
+END
+BMKSearchBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKSearchBase.h
+END
+BMKShareUrlSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKShareUrlSearchOption.h
+END
+BMKSuggestionSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearchOption.h
+END
+BMKPoiSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchOption.h
+END
+BMKGeocodeType.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKGeocodeType.h
+END
+BMKSearchVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKSearchVersion.h
+END
+BMKShareURLSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKShareURLSearch.h
+END
+BMKSuggestionSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearch.h
+END
+BMKPoiSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKPoiSearch.h
+END
+BMKRouteSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchOption.h
+END
+BMKPoiSearchType.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchType.h
+END
+BMKBusLineSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearchOption.h
+END
+BMKGeocodeSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearchOption.h
+END
+BMKRouteSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKRouteSearch.h
+END
+BMKRouteSearchType.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchType.h
+END
+BMKBusLineSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearch.h
+END
+BMKSearchComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKSearchComponent.h
+END
+BMKGeocodeSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearch.h
+END

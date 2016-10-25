@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers
+END
+BMKTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers/BMKTypes.h
+END
+BMKVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers/BMKVersion.h
+END
+BMKUserLocation.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers/BMKUserLocation.h
+END
+BMKGeneralDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers/BMKGeneralDelegate.h
+END
+BMKMapManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers/BMKMapManager.h
+END
+BMKBaseComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PisenDev/!svn/ver/39564/EC/B2B/truck/iOS/Qianjituan/Frameworks/BaiduMap/BaiduMapAPI_Base.framework/Headers/BMKBaseComponent.h
+END

@@ -1,0 +1,45 @@
+//
+//  Qianjituan-Prefix.pch
+//  Qianjituan
+//
+//  Created by ios-mac on 15/9/15.
+//  Copyright (c) 2015年 ios-mac. All rights reserved.
+//
+
+//#ifndef Qianjituan_Qianjituan_Prefix_pch
+//#define Qianjituan_Qianjituan_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#endif
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#define  APP_DELEGATE ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+#define NUSD [NSUserDefaults standardUserDefaults]
+
+#import "NSString+URLEncoding.h"
+#import "AppDelegate.h"
+#import "common.h"
+#import "BaseViewController.h"
+//#import "DataCache.h"
+#import "MBProgressHUD.h"
+
+#define QianjituanUANAME @"kdtunion_pingshengshangcheng"
+
+#define USERDIR @"USER"
+
+#define MEIQIA_GROUP_ID_SERVICE @"47fb6302d6c02f154ecf0a251bde2e86"
+
+#define MEIQIA_GROUP_ID_MERCHANTS @"5473545a407577e84df81a712d1bbe10"
+
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define degreesToRadian(x) (M_PI * (x) / 180.0)

@@ -1,0 +1,306 @@
+//
+//  RegisterProtocolViewController.m
+//  PisenMarket
+//
+//  Created by Pisen on 15/10/10.
+//  Copyright © 2015年 ios-mac. All rights reserved.
+//
+
+#import "RegisterProtocolViewController.h"
+
+@implementation RegisterProtocolViewController
+
+@synthesize mTitleLabel;
+
+@synthesize mBackBtn;
+
+@synthesize mMainWebView;
+
+//
+@synthesize mNoNetworkContainerView;
+
+@synthesize mNoNetworkImageView;
+
+@synthesize mNoNetworkLabel;
+
+@synthesize mNoNetworkRefreshButton;
+
+//
+@synthesize mLoadingViewContainer;
+
+@synthesize mLoadingImageView;
+
+NSString* KProtocolUrl = @"http://m.qjt1000.com/personlData/userAgreement.do?source=app";
+
+NSString* KLoadingTextTemp = @"载入中...";
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    //
+    mNoNetworkContainerView.hidden = YES;
+    
+    mNoNetworkRefreshButton.layer.masksToBounds = YES;
+    
+    mNoNetworkRefreshButton.layer.cornerRadius = 20;
+    
+    mNoNetworkRefreshButton.layer.borderWidth = 1.0;
+    
+    mNoNetworkRefreshButton.layer.borderColor =
+    [[UIColor colorWithRed: 90.0f / 255.0f
+                     green: 168.0f / 255.0f
+                      blue: 248.0f / 255.0f
+                     alpha: 1.0f] CGColor];
+    
+    
+    //
+    mMainWebView.delegate = self;
+    
+    mMainWebView.scrollView.showsVerticalScrollIndicator = NO;
+    
+    mMainWebView.scrollView.showsHorizontalScrollIndicator = NO;
+    
+    mMainWebView.scrollView.bounces = NO;
+    
+    //
+    mLoadingViewContainer.hidden = YES;
+    
+    NSArray* gifArray = [NSArray arrayWithObjects:
+                         [UIImage imageNamed:@"1"],
+                         [UIImage imageNamed:@"2"],
+                         [UIImage imageNamed:@"3"],
+                         [UIImage imageNamed:@"4"],
+                         [UIImage imageNamed:@"5"],
+                         [UIImage imageNamed:@"6"],
+                         [UIImage imageNamed:@"7"],
+                         [UIImage imageNamed:@"8"],
+                         [UIImage imageNamed:@"9"],
+                         [UIImage imageNamed:@"10"],
+                         [UIImage imageNamed:@"11"],
+                         [UIImage imageNamed:@"12"],
+                         [UIImage imageNamed:@"13"],
+                         [UIImage imageNamed:@"14"],
+                         [UIImage imageNamed:@"15"],
+                         nil];
+    
+    mLoadingImageView.animationImages = gifArray;
+    
+    mLoadingImageView.animationDuration = 2;
+    
+    mLoadingImageView.animationRepeatCount = 0;
+    
+    //
+//    NSString* filePath =
+//    [[NSBundle mainBundle] pathForResource:@"/ProtocolCenter/registerProtocolCenter"
+//                                    ofType:@"html"];
+    
+//    NSURL* url =  [NSURL fileURLWithPath: filePath];
+    
+    NSURL* url = [NSURL URLWithString: KProtocolUrl];
+    
+    NSURLRequest* request = [NSURLRequest requestWithURL: url];
+    
+    [mMainWebView loadRequest: request];
+    
+    //
+    CGRect screenFrame = [ UIScreen mainScreen ].bounds;
+    
+    if(screenFrame.size.width == 320 &&
+       screenFrame.size.height == 480)
+    {
+        mMainWebView.frame =
+        CGRectMake(
+                   0,
+                   mMainWebView.frame.origin.y,
+                   mMainWebView.frame.size.width,
+                   mMainWebView.frame.size.height - 87);
+        
+    }
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+-(BOOL) isConnectionAvailable
+{
+    BOOL isExistenceNetwork = YES;
+    
+    Reachability *reach = [Reachability reachabilityWithHostName:@"www.baidu.com"];
+    
+    switch([reach currentReachabilityStatus])
+    {
+        case NotReachable:
+            isExistenceNetwork = NO;
+            break;
+        case ReachableViaWiFi:
+            isExistenceNetwork = YES;
+            break;
+        case ReachableViaWWAN:
+            isExistenceNetwork = YES;
+            break;
+    }
+    
+    if(!isExistenceNetwork)
+    {
+        return NO;
+    }
+    
+    return isExistenceNetwork;
+}
+
+-(void) startDelayDismissNoticeTimer
+{
+    if(mDelayDismissNoticeTimer != nil)
+    {
+        [mDelayDismissNoticeTimer invalidate];
+        
+        mDelayDismissNoticeTimer = nil;
+    }
+    
+    //
+    mDelayDismissNoticeTimer =
+    [NSTimer scheduledTimerWithTimeInterval: 5
+                                     target: self
+                                   selector: @selector(onTimerTick)
+                                   userInfo: nil
+                                    repeats: NO];
+    
+    [[NSRunLoop currentRunLoop] addTimer: mDelayDismissNoticeTimer
+                                 forMode: NSDefaultRunLoopMode];
+}
+
+- (void) onTimerTick
+{
+    //stop loading animation
+    if(!mLoadingViewContainer.isHidden)
+    {
+        [mLoadingImageView stopAnimating];
+        
+        mLoadingViewContainer.hidden = YES;
+    }
+    
+    if(mDelayDismissNoticeTimer != nil)
+    {
+        [mDelayDismissNoticeTimer invalidate];
+        
+        mDelayDismissNoticeTimer = nil;
+    }
+}
+
+- (IBAction) onBackBtnClick:(id)sender
+{
+    [self.navigationController popViewControllerAnimated: YES];
+}
+
+- (IBAction) onRefreshBtnClick:(id)sender
+{
+    mNoNetworkContainerView.hidden = YES;
+    
+    [mTitleLabel setText: KLoadingTextTemp];
+    
+    [mMainWebView stopLoading];
+    
+    //
+    NSURL* url = [NSURL URLWithString: KProtocolUrl];
+    
+    NSURLRequest* request = [NSURLRequest requestWithURL: url];
+    
+    [mMainWebView loadRequest: request];
+}
+
+- (BOOL)webView: (UIWebView*)webView
+shouldStartLoadWithRequest: (NSURLRequest*)request
+ navigationType: (UIWebViewNavigationType)navigationType
+{
+    if(request == nil ||
+       request.URL == nil)
+    {
+        return YES;
+    }
+    
+    if(![self isConnectionAvailable])
+    {
+        mNoNetworkContainerView.hidden = NO;
+        
+        return NO;
+    }
+    else
+    {
+        mNoNetworkContainerView.hidden = YES;
+    }
+    
+    //loading animation
+    mLoadingViewContainer.hidden = NO;
+    
+    [mLoadingImageView startAnimating];
+    
+    [self startDelayDismissNoticeTimer];
+    
+    return YES;
+}
+
+- (void)webViewDidStartLoad: (UIWebView*)webView
+{
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+    
+    if(mDelayDismissNoticeTimer != nil)
+    {
+        [mDelayDismissNoticeTimer invalidate];
+        
+        mDelayDismissNoticeTimer = nil;
+    }
+}
+
+- (void)webViewDidFinishLoad: (UIWebView*)webView
+{
+    // 屏蔽web长按点击事件
+//    [webView stringByEvaluatingJavaScriptFromString:@"document.documentElement.style.webkitUserSelect='none';"];
+//    [webView stringByEvaluatingJavaScriptFromString:@"document.documentElement.style.webkitTouchCallout='none';"];
+    
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    
+    mTitleLabel.text =
+    [mMainWebView stringByEvaluatingJavaScriptFromString: @"document.title"];
+    
+    //stop loading animation
+    [mLoadingImageView stopAnimating];
+    
+    mLoadingViewContainer.hidden = YES;
+    
+    if(mDelayDismissNoticeTimer != nil)
+    {
+        [mDelayDismissNoticeTimer invalidate];
+        
+        mDelayDismissNoticeTimer = nil;
+    }
+}
+
+- (void)webView: (UIWebView*)webView
+didFailLoadWithError: (NSError*)error
+{
+    if(error == nil)
+    {
+        return;
+    }
+    
+    if(mTitleLabel.text != nil &&
+       [mTitleLabel.text isEqualToString: KLoadingTextTemp])
+    {
+        mTitleLabel.text = @"";
+    }
+    
+    //stop loading animation
+    [mLoadingImageView stopAnimating];
+    
+    mLoadingViewContainer.hidden = YES;
+    
+    mNoNetworkContainerView.hidden = NO;
+}
+
+#pragma mark UIWebView delegate end
+
+@end

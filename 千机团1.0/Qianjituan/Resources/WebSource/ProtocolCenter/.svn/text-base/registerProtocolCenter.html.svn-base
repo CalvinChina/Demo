@@ -1,0 +1,634 @@
+<!doctype html>
+
+<html lang="zh-cn">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name=Generator >
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Calibri",sans-serif;}
+h2
+	{mso-style-link:"标题 2 Char";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:18.0pt;
+	font-family:宋体;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	layout-grid-mode:char;
+	border:none;
+	padding:0cm;
+	font-size:9.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Calibri",sans-serif;}
+span.2Char
+	{mso-style-name:"标题 2 Char";
+	mso-style-link:"标题 2";
+	font-family:宋体;
+	font-weight:bold;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-link:页眉;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-link:页脚;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN style='text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:22.5pt'><b><span
+style='font-size:18.0pt;font-family:宋体;color:#222222'>品胜商城</span></b><b><span
+lang=EN-US style='font-size:18.0pt;font-family:"Arial",sans-serif;color:#222222'>APP</span></b><b><span
+style='font-size:18.0pt;font-family:宋体;color:#222222'>会员注册协议</span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left'><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+</span><span style='font-family:宋体;color:#222222'>欢迎您申请注册成为品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>会员！在您注册成为品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>会员前，请您仔细阅读本会员注册协议。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+</span><span style='font-family:宋体;color:#222222'>当您同意《品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>会员注册协议》并完成注册程序，即表示您自愿接受本会员注册协议，正式成为品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>会员。如果您不接受本会员注册协议，请停止并退出注册程序。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>本协议由您与品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>的运营方即四川品胜品牌管理有限公司共同缔结，本协议具有合同效力。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+</span><span style='font-family:宋体;color:#E56600'>一、定义</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+1</span><span style='font-family:宋体;color:#222222'>．品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>（以下简称</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>“</span><span
+style='font-family:宋体;color:#222222'>品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP”</span><span
+style='font-family:宋体;color:#222222'>）是广东品胜电子股份有限公司授权，由四川品胜品牌管理有限公司依托有赞（</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>www.youzan.com</span><span
+style='font-family:宋体;color:#222222'>）打造的一个直面终端用户的全渠道（双向</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>O2O</span><span
+style='font-family:宋体;color:#222222'>）整合营销模式购物平台。由广东品胜电子股份有限公司、四川品胜品牌管理有限公司、有赞（</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>www.youzan.com</span><span
+style='font-family:宋体;color:#222222'>）以及品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>联盟商户共同组成。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>已获得广东品胜电子股份有限公司授权，拥有</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>“</span><span
+style='font-family:宋体;color:#222222'>品胜</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>”</span><span
+style='font-family:宋体;color:#222222'>、</span><span lang=EN-US style='font-family:
+"Arial",sans-serif;color:#222222'>“PISEN”</span><span style='font-family:宋体;
+color:#222222'>、</span><span lang=EN-US style='font-family:"Arial",sans-serif;
+color:#222222'>“</span><span style='font-family:宋体;color:#222222'>玩加</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>”</span><span
+style='font-family:宋体;color:#222222'>、</span><span lang=EN-US style='font-family:
+"Arial",sans-serif;color:#222222'>“WOCOL”</span><span style='font-family:宋体;
+color:#222222'>等商标的使用权，同时取得了对上述品牌产品的推广、销售及售后服务等许可权。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+2</span><span style='font-family:宋体;color:#222222'>．品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>会员：系指经品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>注册，接受并同意本协议全部条款及品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>发布的其他服务条款和信息的具有民事行为能力的自然人、法人及其他合法组织。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+3</span><span style='font-family:宋体;color:#222222'>．品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>联盟商户：获得广东品胜电子股份有限公司及四川品胜品牌管理有限公司授权，专营</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>“</span><span
+style='font-family:宋体;color:#222222'>品胜</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>”</span><span
+style='font-family:宋体;color:#222222'>、</span><span lang=EN-US style='font-family:
+"Arial",sans-serif;color:#222222'>“PISEN”</span><span style='font-family:宋体;
+color:#222222'>、</span><span lang=EN-US style='font-family:"Arial",sans-serif;
+color:#222222'>“</span><span style='font-family:宋体;color:#222222'>玩加</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>”</span><span
+style='font-family:宋体;color:#222222'>、</span><span lang=EN-US style='font-family:
+"Arial",sans-serif;color:#222222'>“WOCOL”</span><span style='font-family:宋体;
+color:#222222'>等产品及为品胜商城</span><span lang=EN-US style='font-family:"Arial",sans-serif;
+color:#222222'>APP</span><span style='font-family:宋体;color:#222222'>商城提供服务的商家。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+</span><span style='font-family:宋体;color:#E56600'>二、交易规则</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+1</span><span style='font-family:宋体;color:#222222'>．会员在品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>浏览商品、服务等信息时，应当仔细阅读信息中包含的内容，其中包括（但不限于）商品的种类、服务的名称、规格型号、价格、数量、质量、订单有效期、预约时间、商户地址、营业时间、配送方式、退换货方式、退款条件、售后服务等内容，其中应特别注意订单有效期、预约时间、商户地址、营业时间、退换货方式、退款条件等内容，会员须完全接受信息中包含的内容后方可购买。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+2</span><span style='font-family:宋体;color:#222222'>．提交及确认订单：会员在下单时，请仔细核对、确认所购商品信息，商品服务，收货地址及联系方式等信息。收货人信息与会员本人不一致的，收货人的行为和意识即视为会员的行为和意识，会员应对收货人的行为及意识的法律后果承担连带责任。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+3</span><span style='font-family:宋体;color:#222222'>．除法律另有规定外，双方约定如下：</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>（</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>1</span><span
+style='font-family:宋体;color:#222222'>）品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>上所展示的商品价格等信息仅仅是对该商品的展示及对您购买的邀请，您下单时须选择您所购商品的型号、数量，填写收货人、联系方式、收货地址（合同履行地点），确定支付方式等内容。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>（</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>2</span><span
+style='font-family:宋体;color:#222222'>）系统生成的订单信息是计算机信息系统根据您填写的内容自动生成的数据，仅是您向品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>发出的合同要约。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>（</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>3</span><span
+style='font-family:宋体;color:#222222'>）品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>收到您的订单信息后，只有在品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>平台之一方将您在订单中订购的商品实际直接向您发出时（以商品出库为标志），方视为您与品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>之间就实际直接向您发出的商品建立了合同关系；如果您在一份订单里订购了多种商品并且品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>之一方向您发出了部分商品时，您与品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>仅就实际直接向您发出的商品建立了合同关系。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+4</span><span style='font-family:宋体;color:#222222'>．您可以随时登陆您在品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>注册的账户，查询您的订单状态。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+5</span><span style='font-family:宋体;color:#222222'>．订单取消：</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>（</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>1</span><span
+style='font-family:宋体;color:#222222'>）由于市场变化及各种以合理商业努力难以控制的因素的影响，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>无法保证您提交的订单信息中希望购买的商品始终有货；如您欲购买的商品发生缺货情况，您有权取消订单。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>（</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>2</span><span
+style='font-family:宋体;color:#222222'>）如果发生了意外情况，在确认了您的订单后，由于成本提高，税额变化等引起的价格变化，或是由于品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>的错误等造成商品价格变化，您有权取消您的订单，并希望您能及时通过电子邮件或电话通知品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>客户服务中心（</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>400-088-9898</span><span
+style='font-family:宋体;color:#222222'>）。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>（</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>3</span><span
+style='font-family:宋体;color:#222222'>）品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>如果发现品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>出现产品信息及订单的明显错误或缺货时，有权单方面撤回任何承诺。同时，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>留对产品订购数量的限制权。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+6</span><span style='font-family:宋体;color:#222222'>．配送</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>将安排最适合会员需求的平台之一方把商品或服务送到您所指定的收货地址，所有在品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>上列出的送货时间为参考时间，参考时间的计算是根据库存状况、正常的处理过程和送货时间、送货地点的基础上估计得出的。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+</span><span style='font-family:宋体;color:#222222'>因如下情况造成订单延迟或无法配送等，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>不承担延迟配送的责任：</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>（</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>1</span><span
+style='font-family:宋体;color:#222222'>）会员提供的信息错误、地址不详细等原因导致的；</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>（</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>2</span><span
+style='font-family:宋体;color:#222222'>）货物送达后无人签收，导致无法配送或延迟配送的；</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>（</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>3</span><span
+style='font-family:宋体;color:#222222'>）情势变更因素导致的；</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>（</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>4</span><span
+style='font-family:宋体;color:#222222'>）不可抗力因素导致的，例如：自然灾害、戒严、罢工、突发战争等。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+7</span><span style='font-family:宋体;color:#222222'>．验证码条款：</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>当您使用品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>服务的过程中，品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>将根据不同情况发送验证码到您登记的手机号码或电子邮箱，验证码将作为您的唯一凭证。每个验证码仅可使用一次，因验证码泄露造成的后果，由您自己承担。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+8</span><span style='font-family:宋体;color:#222222'>．商品信息：</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+</span><span style='font-family:宋体;color:#222222'>品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>的商品价格、数量、是否有货等商品信息随时都有可能发生变动，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>不另作特别通知。同时由于品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>上</span><span style='font-family:宋体;
+color:#222222'>商品信息的数量庞大，虽然品胜商城</span><span lang=EN-US style='font-family:"Arial",sans-serif;
+color:#222222'>APP</span><span style='font-family:宋体;color:#222222'>会尽最大努力保证您所浏览商品信息的准确性，但由于众所周知的互联网技术因素等客观原因存在，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>的网页显示的信息可能会有一定的滞后性或误差，对此情形请您知悉并理解。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+</span><span style='font-family:宋体;color:#222222'>如果发现错误定价，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>将采取下列之一措施：</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+(1)</span><span style='font-family:宋体;color:#222222'>遇到某一商品的正确定价低于品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>的错误定价，品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>将按照较低的定价向您交付该商品；</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+(2)</span><span style='font-family:宋体;color:#222222'>遇到某一商品的正确定价高于品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>的错误定价，品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>会根据自身情况决定：是否在交付前联系您寻求指示；或者取消订单、停止发货并通知您。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+</span><span style='font-family:宋体;color:#E56600'>三、会员的权利与义务</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+1</span><span style='font-family:宋体;color:#222222'>．会员有权按照本协议享受品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>提供的交易服务。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+2</span><span style='font-family:宋体;color:#222222'>．会员在购买商品、服务的过程中，如发现商品、服务与订单内容不符或存在质量、服务态度等其他问题的，有权要求品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>积极处理。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+3</span><span style='font-family:宋体;color:#222222'>．会员有权选择是否接受品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>发送的电子邮件或短消息等各类信息，有权随时取消接受该类信息。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+4</span><span style='font-family:宋体;color:#222222'>．会员可以发表评论、晒单等信息，但不得发表任何违法、违规、违反公序良俗、侵犯他人权益或存在其他危害的信息或言论。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+5</span><span style='font-family:宋体;color:#222222'>．会员有权随时终止使用品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>服务。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+6</span><span style='font-family:宋体;color:#222222'>．会员应如实向品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>提供注册资料，并同意其提供的注册资料真实、详尽、准确、完整、合法有效；会员注册资料如有变动的，应及时更新其注册资料。如果会员提供的注册资料不合法、不真实、不准确、不详尽的，会员需承担因此引起的相应的法律责任及后果，并且品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>保留终止会员使用品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>各项服务的权利。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+7</span><span style='font-family:宋体;color:#222222'>．会员必须自行准备如下设备并承担如下开支：</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+(1)</span><span style='font-family:宋体;color:#222222'>上网设备，包括并不限于电脑、智能手机等移动上网终端、调制解调器及其他必备的上网装置；</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+(2)</span><span style='font-family:宋体;color:#222222'>个人上网所支付的与此服务有关各项费用，包括并不限于网络接入费、上网设备租用费、手机流量费等。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+8</span><span style='font-family:宋体;color:#222222'>．会员不得以任何技术手段或其他方式干扰品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>的正常运行或干扰其他用户对品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>的使用。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+9</span><span style='font-family:宋体;color:#222222'>．会员在订单提交并成功确认后应积极配合接收货物并支付货款。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+10</span><span style='font-family:宋体;color:#222222'>．会员不得以虚构事实等方式恶意诋毁品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>的商誉。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+11</span><span style='font-family:宋体;color:#222222'>．会员不得对品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>商品、服务进行虚假评价或虚假投诉。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+</span><span style='font-family:宋体;color:#C45911'>四、品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#C45911'>APP</span><span
+style='font-family:宋体;color:#C45911'>的权利与义</span><span style='font-family:宋体;
+color:#E56600'>务</span><span lang=EN-US style='font-family:"Arial",sans-serif;
+color:#222222'><br>
+<br>
+1</span><span style='font-family:宋体;color:#222222'>．品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>保留随时因修整或中断服务而不知会会员的权利，不需对会员或第三方负责。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>2</span><span
+style='font-family:宋体;color:#222222'>．品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>有权向会员就注册资料发出询问或要求更正的通知，并有权直接做出删除相应不实的处理，直至终止对会员提供部分或全部服务，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>对此不承担任何责任。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+3</span><span style='font-family:宋体;color:#222222'>．会员违反本注册协议，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>有权视情节的轻重采取警告、暂停服务、取消订单、封闭账号、永久禁止注册等措施，给品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>或第三方造成损失的，品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>有权采取一切合法的诉讼与非诉手段进行索赔；会员行为构成犯罪的，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>将保留向国家司法行政机关提请追究其刑事责任的权利。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+4</span><span style='font-family:宋体;color:#222222'>．品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>有权随时删除网站内各类不符合国家法律法规、规范性文件或网站规定的用户评价等内容信息，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>行使上述权利不需提前通知会员。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+5</span><span style='font-family:宋体;color:#222222'>．品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>应当采取必要的技术手段和管理措施保障品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>的正常运行，并提供必要、可靠的交易环境和交易服务，维护交易秩序。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+6</span><span style='font-family:宋体;color:#222222'>．品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>应当建立专业的客服团队，并建立完善的客户服务制度，从技术、人员和制度上保障会员提问及投诉渠道的畅通，为会员提供及时的疑难解答与投诉反馈。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+</span><span style='font-family:宋体;color:#E56600'>五、账户及管理</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+1</span><span style='font-family:宋体;color:#222222'>．会员注册成功后，将产生用户名和密码等账户信息，您可以根据本平台规定改变您的密码。会员应谨慎合理的保存、使用其用户名和密码。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+2</span><span style='font-family:宋体;color:#222222'>．会员若发现任何不当使用您的账户或有任何其他可能危及您的账户安全的情形时，请立即以有效方式通知品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>，要求品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>暂停相关服务。品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>有权在合理时间内对用户的此类请求采取行动，但对在采取行动前已经产生的后果（包括但不限于您的任何损失）不承担任何责任。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+</span><span style='font-family:宋体;color:#E56600'>六、会员隐私条款</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+</span><span style='font-family:宋体;color:#222222'>会员在品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>进行浏览、下单购物等活动时，涉及会员真实姓名</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>/</span><span
+style='font-family:宋体;color:#222222'>名称、通信地址、联系电话、电子邮箱等隐私信息的，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>将予以严格保密。除非法律许可要求品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>透露以上内容。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+</span><span style='font-family:宋体;color:#E56600'>七、协议修订及用户关注</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+1</span><span style='font-family:宋体;color:#222222'>．根据国家法律法规变化及网站运营需要，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>有权对本协议条款不定期地进行修改，修改后的协议一旦被张贴在品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城即生效，并代替原来的协议。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+2</span><span style='font-family:宋体;color:#222222'>．会员可随时登陆查阅最新协议；会员有义务及时关注并阅读最新版的协议及网站公告。如会员不同意更新后的协议，可以且应立即停止接受品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>依据本协议提供的服务；如会员继续使用品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>提供的服务的，即视为同意更新后的协议。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+3</span><span style='font-family:宋体;color:#222222'>．品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>建议您在使用品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>之前仔细阅读本协议及品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>的其他相关公告。如果本协议中任何一条被视为无效或因任何理由不可执行，则该条应视为可分的，且不影响任何其余条款的有效性和可执行性。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+</span><span style='font-family:宋体;color:#E56600'>八、责任限制及不承诺担保</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+1</span><span style='font-family:宋体;color:#222222'>．除非另有明确的书面说明</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>,</span><span
+style='font-family:宋体;color:#222222'>品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>及其所包含的或以其它方式通过品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城提供给您的全部信息、内容、材料、产品（包括软件）和服务，均是在</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>“</span><span
+style='font-family:宋体;color:#222222'>按现状</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>”</span><span
+style='font-family:宋体;color:#222222'>和</span><span lang=EN-US style='font-family:
+"Arial",sans-serif;color:#222222'>“</span><span style='font-family:宋体;
+color:#222222'>按现有</span><span lang=EN-US style='font-family:"Arial",sans-serif;
+color:#222222'>”</span><span style='font-family:宋体;color:#222222'>的基础上提供的。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+2</span><span style='font-family:宋体;color:#222222'>．除非另有明确的书面说明</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>,</span><span
+style='font-family:宋体;color:#222222'>品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>不对品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城的运营及其包含在该商城上的信息、内容、材料、产品（包括软件）或服务作任何形式的、明示或默示的声明或担保（根据中华人民共和国法律另有规定的以外）。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+3</span><span style='font-family:宋体;color:#222222'>．如因不可抗力或其它品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>无法控制的原因使品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城的销售系统崩溃或无法正常使用导致网上交易无法完成或丢失有关的信息、记录等，品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>会合理地尽力协助处理善后事宜。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+4</span><span style='font-family:宋体;color:#222222'>．品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>承担的因合同、侵权（包括过失）等引起责任所涉及的赔偿金额额度，均不会超过您所购买的商品的金额。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+<br>
+</span><span style='font-family:宋体;color:#E56600'>九、知识产权</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+1</span><span style='font-family:宋体;color:#222222'>．会员一旦接受本协议，即表明该会员主动将其在任何时间段在品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城发表的任何形式的信息内容（包括但不限于客户评价、客户咨询、各类话题文章等信息内容）的财产性权利，如著作权财产权（包括并不限于：复制权、发行权、出租权、展览权、表演权、放映权、广播权、信息网络传播权、摄制权、改编权、翻译权、汇编权以及应当由著作权人享有的其他可转让权利），全部独家且不可撤销地转让给品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>所有，会员同意品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>有权就任何主体侵权而单独提起诉讼。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+2</span><span style='font-family:宋体;color:#222222'>．本协议已经构成《中华人民共和国著作权法》第二十五条（条文序号依照</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>2011</span><span
+style='font-family:宋体;color:#222222'>年版著作权法确定）及相关法律规定的著作财产权转让书面协议，其效力给予用户在品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城上发布的任何受著作权法保护的作品内容，无论该等内容形成于本协议订立前还是本协议订立后。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+3</span><span style='font-family:宋体;color:#222222'>．会员同意并已充分了解本协议的条款，承诺不将已发表于品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城的信息，以任何形式发布或授权其它主体以任何方式使用（包括但不限于在各类网站、媒体上使用）。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+4</span><span style='font-family:宋体;color:#222222'>．四川品胜品牌管理有限公司是品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城的制作者</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>,</span><span
+style='font-family:宋体;color:#222222'>拥有此网站内容及资源的著作权等合法权利</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>,</span><span
+style='font-family:宋体;color:#222222'>受国家法律保护</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>,</span><span
+style='font-family:宋体;color:#222222'>有权不定期地对本协议及品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城的内容进行修改，并在品胜商城</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城张贴，无须另行通知用户。在法律允许的最大限度范围内，四川品胜品牌管理有限公司对本协议及品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城内容拥有解释权。</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+5</span><span style='font-family:宋体;color:#222222'>．除法律另有规定外，未经四川品胜品牌管理有限公司明确的特别书面许可</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>,</span><span
+style='font-family:宋体;color:#222222'>任何单位或个人不得以任何方式非法地全部或部分复制、转载、引用、链接、抓取或以其他方式使用品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城的信息内容，否则，四川品胜品牌管理有限公司有权追究其法律责任。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+6</span><span style='font-family:宋体;color:#222222'>．品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城所刊登的资料信息（诸如文字、图表、标识、按钮图标、图像、声音文件片段、数字下载、数据编辑和软件），均是四川品胜品牌管理有限公司或其内容提供者的财产，受中国和国际版权法的保护。品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城上所有内容的汇编是四川品胜品牌管理有限公司的排他财产，受中国和国际版权法的保护。品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>网上商城上所有软件都是四川品胜品牌管理有限公司或其关联公司或其软件供应商的财产，受中国和国际版权法的保护。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+</span><span style='font-family:宋体;color:#E56600'>十、通告</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+</span><span style='font-family:宋体;color:#222222'>所有发给会员的通告都可通过重要页面的公告或电子邮件或常规的信件传送。服务条款的修改、服务变更、或其它重要事件的通告都会以此形式进行。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+</span><span style='font-family:宋体;color:#E56600'>十一、法律管辖与适用</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+1</span><span style='font-family:宋体;color:#222222'>．本协议的订立、执行和解释及争议的解决均应适用在中华人民共和国大陆地区适用之有效法律。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+2</span><span style='font-family:宋体;color:#222222'>．如发生品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>服务条款与现行之法律相抵触时，则这些条款将完全按法律规定重新解释，而其它有效条款继续有效。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+3</span><span style='font-family:宋体;color:#222222'>．如会员和品胜商城</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'>APP</span><span
+style='font-family:宋体;color:#222222'>就本协议内容或其执行发生任何争议，双方应尽力友好协商解决；协商不成时，任何一方均认可向四川品胜品牌管理有限公司所在地有管辖权的法院提起诉讼。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+<br>
+</span><span style='font-family:宋体;color:#E56600'>十二、其他</span><span lang=EN-US
+style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+</span><span style='font-family:宋体;color:#222222'>会员注册时，请您确认已知悉并完全理解本协议的全部内容。注册会员即视为您完全接受本协议并即时生效。</span><span
+lang=EN-US style='font-family:"Arial",sans-serif;color:#222222'><br>
+<br>
+<br>
+</span></p>
+
+<p class=MsoNormal align=right style='text-align:right;line-height:22.5pt'><span
+style='font-family:宋体;color:#222222'>四川品胜品牌管理有限公司</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+  
+</html>
