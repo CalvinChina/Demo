@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YSCPhotoBrowseViewController">
+            <connections>
+                <outlet property="closeButton" destination="84z-4D-Iet" id="gkD-10-xKv"/>
+                <outlet property="indexLabel" destination="3QZ-TD-nC6" id="XW9-YE-SBq"/>
+                <outlet property="photoBrowseView" destination="a9K-wG-Yea" id="Og5-oW-rui"/>
+                <outlet property="saveButton" destination="Fbf-tf-6vF" id="G16-VN-pxX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a9K-wG-Yea" customClass="YSCPhotoBrowseView">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="collectionViewCell" value="YSCPhotoBrowseViewCell"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3QZ-TD-nC6">
+                    <rect key="frame" x="250" y="40" width="100" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="CPb-Qv-xjx"/>
+                        <constraint firstAttribute="height" constant="40" id="RRM-Bs-iwW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbf-tf-6vF">
+                    <rect key="frame" x="470" y="500" width="100" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Ili-Xq-hDs"/>
+                        <constraint firstAttribute="width" constant="100" id="QKl-yO-Okp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" title="保存">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="saveButtonClicked:" destination="-1" eventType="touchUpInside" id="dLM-YH-Ytf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84z-4D-Iet">
+                    <rect key="frame" x="30" y="500" width="100" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Jjk-Qv-vQd"/>
+                        <constraint firstAttribute="width" constant="100" id="b8O-fO-UWj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <state key="normal" title="关闭">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="closeButtonClicked:" destination="-1" eventType="touchUpInside" id="Wxi-98-Ou9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="84z-4D-Iet" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="4I8-km-s41"/>
+                <constraint firstItem="3QZ-TD-nC6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="5R7-pu-Hku"/>
+                <constraint firstAttribute="trailing" secondItem="Fbf-tf-6vF" secondAttribute="trailing" constant="30" id="A1A-Y2-VVY"/>
+                <constraint firstItem="a9K-wG-Yea" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BCr-vH-nkS"/>
+                <constraint firstAttribute="bottom" secondItem="Fbf-tf-6vF" secondAttribute="bottom" constant="40" id="FYn-eN-NCA"/>
+                <constraint firstAttribute="trailing" secondItem="a9K-wG-Yea" secondAttribute="trailing" id="H0x-f3-SDk"/>
+                <constraint firstItem="a9K-wG-Yea" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="MVa-DT-R73"/>
+                <constraint firstAttribute="bottom" secondItem="a9K-wG-Yea" secondAttribute="bottom" id="krf-sx-MQc"/>
+                <constraint firstAttribute="bottom" secondItem="84z-4D-Iet" secondAttribute="bottom" constant="40" id="nLm-py-Dbq"/>
+                <constraint firstAttribute="centerX" secondItem="3QZ-TD-nC6" secondAttribute="centerX" id="pSL-z6-CR0"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <nil key="simulatedTopBarMetrics"/>
+        </view>
+    </objects>
+</document>
