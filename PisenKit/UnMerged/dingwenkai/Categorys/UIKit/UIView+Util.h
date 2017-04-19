@@ -15,7 +15,7 @@
 
 - (UIImage *)convertViewToImage;
 
-// 
+
 @end
 
 #import <UIKit/UIKit.h>
